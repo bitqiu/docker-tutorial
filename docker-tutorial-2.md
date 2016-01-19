@@ -178,9 +178,9 @@ docker 里面可以跑 docker rpm 包
 	docker run --name mynginx -it cents  
 	
 
-去阿里云官方复制镜像  [htttp://mirrors.aliyun.com/](htttp://mirrors.aliyun.com/)  选 epel 
+去阿里云官方复制镜像  [http://mirrors.aliyun.com/](http://mirrors.aliyun.com/)  选 epel 
 
-	rpm -ivh  htttp://mirrors.aliyun.com/epel/epel-release-latest-7.noarch.rpm 
+	rpm -ivh  http://mirrors.aliyun.com/epel/epel-release-latest-7.noarch.rpm 
 	yum install -y nginx 
 
 装上去第一件事做什么，改配置文件，在前端运行，`docker ps -a`
